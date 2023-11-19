@@ -1,0 +1,90 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing:border-box;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 30px;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.logo1{
+    width: 10% ;
+    height:10% ;  
+    padding-top: 20px;
+    margin-left: 60px;
+    
+}
+
+.d-block{
+display: block;
+margin: auto;
+padding-top: 10%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold; 
+    font-family: 'Arial Narrow Bold';
+    color: rgb(131, 127, 127);
+    letter-spacing: 1px;  
+    margin: auto;
+    padding: 0 20px 20px 20px;  
+}
+ .banniere{
+   width:100%;
+}
+
+/* .footer-top{
+
+}
+.footer-bottom{
+
+}
+#footer{
+    
+} */
+
+/* ensemble du bloc */
+.grand-parent{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+/* disposition horizontale des deux blocs =parent*/
+.d-flex{
+    display: flex;
+}
+/* bordure de la classe parent  et couleur de bordure*/
+.border-primary{
+    border: 3px solid blue;
+}
+/* center les deux blocs */
+.justify-center{
+    justify-content: center;
+}
+/* largeur */
+.w-25{
+    width: 45%;  
+}
+/* espacement autour de deux blocs */
+.m-auto{
+    margin: auto;
+}
